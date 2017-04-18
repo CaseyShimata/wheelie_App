@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E38B30011EA6B52100DDA537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B30001EA6B52100DDA537 /* AppDelegate.swift */; };
+		E38B30031EA6B52100DDA537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B30021EA6B52100DDA537 /* ViewController.swift */; };
+		E38B30061EA6B52100DDA537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38B30041EA6B52100DDA537 /* Main.storyboard */; };
+		E38B30091EA6B52100DDA537 /* Stunt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E38B30071EA6B52100DDA537 /* Stunt.xcdatamodeld */; };
+		E38B300B1EA6B52100DDA537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38B300A1EA6B52100DDA537 /* Assets.xcassets */; };
+		E38B300E1EA6B52100DDA537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38B300C1EA6B52100DDA537 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E38B2FFD1EA6B52100DDA537 /* Stunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38B30001EA6B52100DDA537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E38B30021EA6B52100DDA537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E38B30051EA6B52100DDA537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E38B30081EA6B52100DDA537 /* Stunt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stunt.xcdatamodel; sourceTree = "<group>"; };
+		E38B300A1EA6B52100DDA537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E38B300D1EA6B52100DDA537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E38B300F1EA6B52100DDA537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E38B2FFA1EA6B52100DDA537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E38B2FF41EA6B52100DDA537 = {
+			isa = PBXGroup;
+			children = (
+				E38B2FFF1EA6B52100DDA537 /* Stunt */,
+				E38B2FFE1EA6B52100DDA537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E38B2FFE1EA6B52100DDA537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E38B2FFD1EA6B52100DDA537 /* Stunt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E38B2FFF1EA6B52100DDA537 /* Stunt */ = {
+			isa = PBXGroup;
+			children = (
+				E38B30001EA6B52100DDA537 /* AppDelegate.swift */,
+				E38B30021EA6B52100DDA537 /* ViewController.swift */,
+				E38B30041EA6B52100DDA537 /* Main.storyboard */,
+				E38B300A1EA6B52100DDA537 /* Assets.xcassets */,
+				E38B300C1EA6B52100DDA537 /* LaunchScreen.storyboard */,
+				E38B300F1EA6B52100DDA537 /* Info.plist */,
+				E38B30071EA6B52100DDA537 /* Stunt.xcdatamodeld */,
+			);
+			path = Stunt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E38B2FFC1EA6B52100DDA537 /* Stunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38B30121EA6B52100DDA537 /* Build configuration list for PBXNativeTarget "Stunt" */;
+			buildPhases = (
+				E38B2FF91EA6B52100DDA537 /* Sources */,
+				E38B2FFA1EA6B52100DDA537 /* Frameworks */,
+				E38B2FFB1EA6B52100DDA537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stunt;
+			productName = Stunt;
+			productReference = E38B2FFD1EA6B52100DDA537 /* Stunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E38B2FF51EA6B52100DDA537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Casey Shimata";
+				TargetAttributes = {
+					E38B2FFC1EA6B52100DDA537 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2C82BAL72E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E38B2FF81EA6B52100DDA537 /* Build configuration list for PBXProject "Stunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E38B2FF41EA6B52100DDA537;
+			productRefGroup = E38B2FFE1EA6B52100DDA537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E38B2FFC1EA6B52100DDA537 /* Stunt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E38B2FFB1EA6B52100DDA537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38B300E1EA6B52100DDA537 /* LaunchScreen.storyboard in Resources */,
+				E38B300B1EA6B52100DDA537 /* Assets.xcassets in Resources */,
+				E38B30061EA6B52100DDA537 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E38B2FF91EA6B52100DDA537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38B30031EA6B52100DDA537 /* ViewController.swift in Sources */,
+				E38B30011EA6B52100DDA537 /* AppDelegate.swift in Sources */,
+				E38B30091EA6B52100DDA537 /* Stunt.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E38B30041EA6B52100DDA537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E38B30051EA6B52100DDA537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E38B300C1EA6B52100DDA537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E38B300D1EA6B52100DDA537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E38B30101EA6B52100DDA537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E38B30111EA6B52100DDA537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E38B30131EA6B52100DDA537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C82BAL72E;
+				INFOPLIST_FILE = Stunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caseyshimata.Stunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E38B30141EA6B52100DDA537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C82BAL72E;
+				INFOPLIST_FILE = Stunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caseyshimata.Stunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E38B2FF81EA6B52100DDA537 /* Build configuration list for PBXProject "Stunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38B30101EA6B52100DDA537 /* Debug */,
+				E38B30111EA6B52100DDA537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38B30121EA6B52100DDA537 /* Build configuration list for PBXNativeTarget "Stunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38B30131EA6B52100DDA537 /* Debug */,
+				E38B30141EA6B52100DDA537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E38B30071EA6B52100DDA537 /* Stunt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E38B30081EA6B52100DDA537 /* Stunt.xcdatamodel */,
+			);
+			currentVersion = E38B30081EA6B52100DDA537 /* Stunt.xcdatamodel */;
+			path = Stunt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E38B2FF51EA6B52100DDA537 /* Project object */;
+}
